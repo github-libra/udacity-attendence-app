@@ -1,0 +1,32 @@
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 800px;
+    margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table thead th{
+    color: white;
+    background-color: #333;
+    height: 30px;
+}
+table thead th#days-missed {
+    background-color: red;
+}
+table tr {
+    border-bottom: 1px solid #eee;
+}
+table tbody tr td:last-child {
+    background-color: pink;
+    color: red;
+}
+table tr td {
+    text-align: center;
+    padding: 10px 10px;
+}
